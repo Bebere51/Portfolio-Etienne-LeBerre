@@ -1,6 +1,6 @@
 {
     "title": "Infrastructure réseau Linux",
-    "subtitle": "Projet de groupe : conception et déploiement d'une infrastructure Linux complète, comprenant un bastion d'accès sécurisé (Teleport), un reverse proxy Nginx, une base de données répliquée avec ProxySQL et Galera, un serveur web avec certificat SSL, un routeur/pare-feu OPNsense, un serveur DNS (PowerDNS), ainsi qu'un service d'observabilité de l'ensemble de l'infrastructure avec Grafana.",
+    "subtitle": "Projet réalisé en groupe dans le cadre de ma formation, avec pour objectif de concevoir et déployer une infrastructure Linux complète et sécurisée de bout en bout. J'ai contribué activement à l'ensemble des briques du projet, en coordination avec les autres membres de l'équipe : un bastion d'accès sécurisé avec Teleport pour centraliser et tracer les connexions aux serveurs, un reverse proxy Nginx pour router et sécuriser le trafic entrant, une base de données répliquée en haute disponibilité avec ProxySQL et Galera Cluster, un serveur web protégé par certificat SSL, un routeur/pare-feu OPNsense pour filtrer et protéger le réseau, un serveur DNS interne avec PowerDNS, ainsi qu'une stack d'observabilité avec Grafana pour superviser l'état et les performances de l'ensemble de l'infrastructure.",
     "url": "https://github.com/Bebere51",
     "linkLabel": "Voir le projet"
 }
