@@ -7,12 +7,12 @@ type Props = typeof projects[0]['data'];
 
 const { title, subtitle, url, linkLabel = 'Voir le projet' } = Astro.props;
 ---
-<li class="grid grid-cols-subgrid grid-col-[1/-1] items-center c-gray-600 hover:c-black transition relative border-b-1 border-b-gray-200">
-    <div class="grid-col-[span_1] c-black border-r-1 border-r-gray-200 h-100% flex flex-col justify-center h-[100%] pl-12.5 py-6">
+<li class="grid grid-cols-subgrid grid-col-[1/-1] items-start c-gray-600 hover:c-black transition relative border-b-1 border-b-gray-200">
+    <div class="grid-col-[span_1] c-black border-r-1 border-r-gray-200 h-100% flex flex-col justify-center pl-12.5 py-6">
         <h3 class="project-title">{title}</h3>
         <small class="small">{subtitle}</small>
     </div>
-    <div class="grid-col-[span_1] justify-self-end pr-12.5">
+    <div class="grid-col-[span_1] justify-self-end pr-12.5 py-6">
         <a href={url} class="text-4 fw-bold whitespace-nowrap" target="_blank" rel="noopener">
             {linkLabel} &rarr;
         </a>
