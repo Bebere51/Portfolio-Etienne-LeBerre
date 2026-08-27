@@ -1,0 +1,15 @@
+---
+import Layout from "./Layout.astro";
+import Section from "../components/Section.astro";
+import Header from '../components/Header.astro';
+---
+<Layout title='Compétences — Étienne Le Berre'>
+    <Header>
+        <h1 class="title">Mes compétences</h1>
+    </Header>
+    <main class="content-wrapper">
+        <Section>
+            <slot/>
+        </Section>
+    </main>
+</Layout>
