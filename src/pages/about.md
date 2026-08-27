@@ -2,11 +2,16 @@
 layout: ../layouts/AboutLayout.astro
 ---
 
-Contenu provisoire — remplace ce texte par ta présentation complète : ton parcours, tes études, tes expériences et ce qui te passionne.
+Dans le cadre de ma troisième année de formation en Cybersécurité au sein d'Ynov Campus à Aix-en-Provence, je suis à la recherche d'une alternance en entreprise (2 semaines en entreprise et 1 semaine en cours) à partir de septembre 2026.
 
 ## Mon parcours
 
-Décris ici ton parcours scolaire ou professionnel : les formations que tu as suivies, les expériences marquantes, et ce qui t'a mené vers ce domaine.
+**Bachelor Ynov Campus — Cybersécurité**, Aix-en-Provence
+- 1ère année : 2024 / 2025
+- 2ème année : 2025 / 2026
+
+**Baccalauréat Professionnel Systèmes Numériques**, option B : Audiovisuel, Réseaux et Équipements Domestiques
+Lycée Robert Schuman — Avignon
 
 ## Mes compétences
 
