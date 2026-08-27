@@ -1,0 +1,23 @@
+---
+import CompetencesLayout from '../layouts/CompetencesLayout.astro';
+
+const skills = [
+	{ name: 'Scripting', level: 'Débutant' },
+	{ name: 'Windows Server', level: 'Débutant' },
+	{ name: 'Python', level: 'Débutant' },
+	{ name: 'Réseaux & Infrastructure', level: 'Débutant' },
+	{ name: 'Linux', level: 'Débutant' },
+];
+---
+
+<CompetencesLayout>
+	<p class="subtitle-small">Un aperçu de mes compétences techniques, acquises au cours de ma formation en cybersécurité.</p>
+	<ul class="mt-5 ignore-content-container border-y-1 border-y-gray-200 border-y-dotted">
+		{skills.map((skill) => (
+			<li class="flex items-center justify-between border-b-1 border-b-gray-200 py-4 px-12.5">
+				<span class="fw-bold">{skill.name}</span>
+				<span class="subtitle-small">{skill.level}</span>
+			</li>
+		))}
+	</ul>
+</CompetencesLayout>
