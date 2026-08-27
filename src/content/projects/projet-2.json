@@ -1,6 +1,6 @@
 {
     "title": "Infrastructure réseau Windows Server",
-    "subtitle": "Projet de groupe : mise en place des services essentiels d'un environnement Windows Server, incluant un serveur DNS, un serveur DHCP, un serveur web, un annuaire Active Directory (AD DS) ainsi qu'un Broker RDS pour la gestion centralisée des sessions Bureau à distance.",
+    "subtitle": "Projet réalisé en groupe, visant à mettre en place les services essentiels d'un environnement Windows Server professionnel. J'ai contribué à la mise en œuvre des différentes briques du projet, en coordination avec les autres membres de l'équipe : un serveur DNS pour la résolution de noms, un serveur DHCP pour l'attribution automatique des adresses IP, un serveur web pour l'hébergement de services internes, un annuaire Active Directory (AD DS) pour la gestion centralisée des utilisateurs et des ressources, ainsi qu'un Broker RDS pour la répartition et la gestion des sessions Bureau à distance entre plusieurs serveurs.",
     "url": "https://github.com/Bebere51",
     "linkLabel": "Voir le projet"
 }
