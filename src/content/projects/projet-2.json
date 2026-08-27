@@ -1,6 +1,6 @@
 {
-    "title": "Nom du projet 2",
-    "subtitle": "Description courte du projet : ce qu'il fait, les technologies utilisées.",
+    "title": "Infrastructure réseau Windows Server",
+    "subtitle": "Projet de groupe : mise en place des services essentiels d'un environnement Windows Server, incluant un serveur DNS, un serveur DHCP, un serveur web, un annuaire Active Directory (AD DS) ainsi qu'un Broker RDS pour la gestion centralisée des sessions Bureau à distance.",
     "url": "https://github.com/Bebere51",
     "linkLabel": "Voir le projet"
 }
