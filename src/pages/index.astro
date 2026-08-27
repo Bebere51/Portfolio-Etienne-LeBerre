@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Section from '../components/Section.astro';
+import { getCollection } from 'astro:content';
+import ProjectCard from '../components/ProjectCard.astro';
+import SectionSpacer from '../components/SectionSpacer.astro';
+import GithubIcon from '../components/GithubIcon.astro';
+
+const projects = await getCollection('projects');
+---
+
+<Layout title="Étienne Le Berre — Portfolio">
+	<Header gridBg>
+		<small class="small">Portfolio</small>
+		<h2 class="text-12 leading-12 lg:text-20 lg:leading-20">Bonjour, je suis <span class="font-mono">Étienne Le Berre</span></h2>
+		<p class="subtitle w-85% lg:w-50% mx-auto mt-5">Remplace ce texte par ta phrase d'accroche (ex : "Développeur passionné par le web" ou "Étudiant en informatique / design").</p>
+		<a href="#projets" class="inline-block mt-5 fw-bold bg-gray-800 c-gray-100 text-4 py-3 px-6">Voir mes projets</a>
+	</Header>
+	<main>
+		<Section index source="projets.json" fullWidthBorder>
+			<h2 class="title" id="projets">Mes projets</h2>
+			<p class="subtitle-small">Une petite description de ce que tu aimes construire et des technologies que tu utilises.</p>
+			<ul class="my-5 project-list ignore-content-container border-y-1 border-y-gray-200 border-y-dotted">
+				{projects.map((proj: any) => <ProjectCard {...proj.data} />)}
+			</ul>
+		</Section>
+		<SectionSpacer size="md" />
+		<Section variant="dark" index source="a_propos.md" fullWidthBorder>
+			<div class="lg:w-[60%] md:w-[70%] mx-auto">
+				<h2 class="title">À propos de moi</h2>
+				<p class="subtitle-mall">
+					Contenu provisoire — remplace ce paragraphe par ta présentation : ton parcours, tes études,
+					tes compétences et ce qui te passionne.
+				</p>
+			</div>
+		</Section>
+		<SectionSpacer size="md" />
+		<Section index source="contact.json" fullWidthBorder>
+			<div class="grid lg:grid-cols-[4fr_1fr] place-items-center gap-5">
+				<div>
+					<h2 class="title">Contact</h2>
+					<p class="subtitle-small mt-2">N'hésite pas à me contacter :</p>
+					<ul class="mt-4 flex flex-col gap-row-2 subtitle-small">
+						<li>Email : <a href="mailto:ton.email@example.com" class="c-blue-700 underline">ton.email@example.com</a></li>
+						<li>LinkedIn : <a href="#" target="_blank" rel="noopener" class="c-blue-700 underline">à compléter</a></li>
+					</ul>
+				</div>
+				<div>
+					<a href="https://github.com/Bebere51" target="_blank" rel="noopener" class="text-10 md:text-17 flex flex-col items-center gap-2">
+						<GithubIcon />
+						<small class="small">GitHub</small>
+					</a>
+				</div>
+			</div>
+		</Section>
+	</main>
+</Layout>
