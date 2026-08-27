@@ -11,6 +11,7 @@ Dans le cadre de ma troisième année de formation en Cybersécurité au sein d'
 - 2ème année : 2025 / 2026
 
 **Baccalauréat Professionnel Systèmes Numériques**, option B : Audiovisuel, Réseaux et Équipements Domestiques
+
 Lycée Robert Schuman — Avignon
 
 ## Ce qui me passionne
