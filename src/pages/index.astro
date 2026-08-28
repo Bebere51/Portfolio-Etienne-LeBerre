@@ -19,8 +19,7 @@ const projects = await getCollection('projects');
 	<main>
 		<Section index source="projets.json" fullWidthBorder>
 			<h2 class="title" id="projets">Mes projets</h2>
-			<p class="subtitle-small">Une petite description de ce que tu aimes construire et des technologies que tu utilises.</p>
-			<ul class="my-5 project-list ignore-content-container border-y-1 border-y-gray-200 border-y-dotted">
+			<ul class="mt-5 mb-5 project-list ignore-content-container border-y-1 border-y-gray-200 border-y-dotted">
 				{projects.map((proj: any) => <ProjectCard {...proj.data} />)}
 			</ul>
 		</Section>
