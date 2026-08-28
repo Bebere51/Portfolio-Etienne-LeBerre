@@ -16,4 +16,4 @@ Lycée Robert Schuman — Avignon
 
 ## Ce qui me passionne
 
-Quelques phrases sur tes centres d'intérêt en lien avec ton domaine, ou plus largement ce qui te motive au quotidien.
+En dehors de la formation, j'aime monter et bidouiller mon propre homelab : serveurs, machines virtuelles, réseaux, que j'utilise pour tester de nouvelles configurations et approfondir mes compétences en Linux, Windows Server et en sécurité. C'est ma façon d'apprendre en pratiquant, au-delà de ce qui est vu en cours.
